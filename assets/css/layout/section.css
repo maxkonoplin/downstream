@@ -1,0 +1,24 @@
+.section {
+  padding: 4rem 0;
+}
+@media (min-width: 768px) {
+  .section {
+    padding: 5rem 0;
+  }
+}
+@media (min-width: 992px) {
+  .section {
+    padding: 6rem 0;
+  }
+}
+.section__header {
+  margin-bottom: 2rem;
+}
+@media (min-width: 768px) {
+  .section__header {
+    margin-bottom: 4rem;
+  }
+}
+.section.is-gray {
+  background: #F0F4F5;
+}

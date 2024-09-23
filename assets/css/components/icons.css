@@ -1,0 +1,15 @@
+/**
+ * Icons
+ * =================================
+ */
+.icon {
+  display: inline-block;
+  width: 2.5rem;
+  height: 2.5rem;
+  vertical-align: middle;
+  fill: currentColor;
+}
+.icon[class*=stroked] {
+  stroke: currentColor;
+  fill: none;
+}

@@ -1,0 +1,23 @@
+.accordion.is-active .accordion__heading::after {
+  content: "-";
+}
+.accordion__heading {
+  cursor: pointer;
+  position: relative;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.accordion__heading::after {
+  content: "+";
+  font-size: 2.2rem;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  font-weight: 600;
+  color: var(--primary-color);
+}

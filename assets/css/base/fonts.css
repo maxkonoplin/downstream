@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "Eurostyle";
+  src: url("../../fonts/EurostileLTStd.woff2") format("woff2"), url("../../fonts/EurostileLTStd.woff") format("woff");
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Eurostyle";
+  src: url("../../fonts/EurostileLTStd-Demi.woff2") format("woff2"), url("../../fonts/EurostileLTStd-Demi.woff") format("woff");
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Eurostyle";
+  src: url("../../fonts/EurostileLTStd-Bold.woff2") format("woff2"), url("../../fonts/EurostileLTStd-Bold.woff") format("woff");
+  font-style: normal;
+  font-weight: bold;
+  font-display: swap;
+}

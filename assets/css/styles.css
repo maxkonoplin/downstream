@@ -1,0 +1,16 @@
+@import url("base/variables-5.css");
+@import url("base/ress.css");
+@import url("base/base.css");
+@import url("base/utilities.css");
+@import url("base/fonts.css");
+@import url("base/typography.css");
+@import url("base/forms.css");
+@import url("components/icons.css");
+@import url("components/buttons.css");
+@import url("components/tabs.css");
+@import url("components/accordion.css");
+@import url("components/modal-win.css");
+@import url("components/auth.css");
+@import url("components/common.css");
+@import url("layout/main-layout.css");
+@import url("layout/section.css");

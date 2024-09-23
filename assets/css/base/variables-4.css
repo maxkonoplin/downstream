@@ -1,0 +1,15 @@
+:root {
+  --primary-color: #4789EB;
+  --secondary-color: green;
+  --body-bg: #fff;
+  --base-color: #1E1E1E;
+  --layout-radius: .5rem;
+  --error: #E40023;
+  --warning: #E40023;
+  --success: #399C0A;
+  --input-bg: #fff;
+  --input-border: #BABABA;
+  --input-placeholder: #ccc;
+  --font-base-stack: Poppins, Arial, sans-serif;
+  --font-headings-stack: Poppins, Arial, sans-serif;
+}

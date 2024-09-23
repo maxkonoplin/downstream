@@ -1,0 +1,18 @@
+:root {
+  --primary-color: #428092;
+  --secondary-color: green;
+  --body-bg: #000;
+  --base-color: #fff;
+  --error: #E40023;
+  --warning: #E40023;
+  --success: #399C0A;
+  --layout-radius: 3rem;
+  --layout-bg: url("../../images/downstream-bg.png") center / auto 100% repeat-x;
+  --button-weight: 500;
+  --input-bg: #000;
+  --input-border: var(--primary-color);
+  --input-border-size: .2rem;
+  --input-placeholder: #ccc;
+  --font-base-stack: Eurostyle, Arial, sans-serif;
+  --font-headings-stack: Eurostyle, Arial, sans-serif;
+}

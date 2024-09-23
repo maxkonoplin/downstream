@@ -1,0 +1,158 @@
+/**
+ * Buttons
+ */
+.btn {
+  background: transparent;
+  color: var(--white, var(--primary-color));
+  border: 0.1rem solid transparent;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1.3rem 2rem;
+  font-size: 1.5rem;
+  font-weight: var(--button-weight, 400);
+  font-family: inherit;
+  line-height: 1.1;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  outline: none;
+  border-radius: var(--layout-radius);
+  white-space: nowrap;
+  -webkit-transition: opacity 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  /*
+   *
+   * Buttons Disabled
+   *
+   */
+  /*
+   *
+   * Buttons Types 
+   *
+   */
+  /*
+   *
+   * Buttons Sizes
+   *
+   */
+  /*
+   *
+   * Buttons extra
+   *
+   */
+}
+@media (min-width: 768px) {
+  .btn {
+    font-size: 1.8rem;
+  }
+}
+@media (min-width: 1200px) {
+  .btn {
+    font-size: 2rem;
+  }
+}
+.btn__text {
+  -webkit-transition: inherit;
+  transition: inherit;
+}
+.btn__text + .btn__icon {
+  margin-left: 1rem;
+}
+.btn__icon {
+  fill: currentColor;
+  width: 1.6rem;
+  height: 1.6rem;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+}
+.btn__icon + .btn__text {
+  margin-left: 1rem;
+}
+.btn:not([class*=btn-]):hover {
+  text-decoration: underline;
+}
+.btn[disabled], .btn.disabled {
+  cursor: default;
+  pointer-events: none;
+  opacity: 0.6;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+.btn--primary {
+  color: #fff;
+  background: var(--primary-color);
+}
+.btn--primary:hover, .btn--primary:focus {
+  opacity: 0.8;
+}
+.btn--primary:active {
+  opacity: 0.9;
+}
+.btn--primary-reverse {
+  color: var(--white, var(--primary-color));
+  border-color: var(--white, var(--primary-color));
+}
+.btn--primary-reverse:hover, .btn--primary-reverse:focus {
+  color: var(--black, #fff);
+  background: var(--white, var(--primary-color));
+  border-color: var(--white, var(--primary-color));
+}
+.btn--primary-reverse:active {
+  opacity: 0.9;
+}
+.btn--secondary {
+  color: #fff;
+  background: var(--secondary-color);
+}
+.btn--secondary:hover, .btn--secondary:focus {
+  opacity: 0.8;
+}
+.btn--secondary:active {
+  opacity: 0.9;
+}
+.btn--secondary-reverse {
+  color: var(--secondary-color);
+  border-color: var(--secondary-color);
+}
+.btn--secondary-reverse:hover, .btn--secondary-reverse:focus {
+  color: #fff;
+  background: var(--secondary-color);
+  border-color: var(--secondary-color);
+}
+.btn--secondary-reverse:active {
+  opacity: 0.9;
+}
+.btn--sm {
+  font-size: 1.4rem;
+  padding: 0.8rem 1rem;
+}
+.btn--sm .btn__icon {
+  width: 1.4rem;
+  height: 1.4rem;
+}
+.btn--lg {
+  font-size: 1.8rem;
+  padding: 1.5rem 3rem;
+}
+.btn--lg .btn__icon {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.btn--block {
+  width: 100%;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.btn--block + .btn--block {
+  margin-top: 1.5rem;
+}

@@ -1,0 +1,105 @@
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+
+a:focus {
+  outline: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+address {
+  font-style: normal;
+}
+
+::-moz-selection {
+  background: var(--primary-color);
+  color: #fff;
+}
+
+::selection {
+  background: var(--primary-color);
+  color: #fff;
+}
+
+@supports not selector(::-webkit-scrollbar) {
+  .scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: var(--primary-color) #F5F5F5;
+  }
+}
+.scrollbar::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 0.5rem;
+  background-color: #F5F5F5;
+}
+
+.scrollbar::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 0.6rem rgba(0, 0, 0, 0.3);
+          box-shadow: inset 0 0 0.6rem rgba(0, 0, 0, 0.3);
+  border-radius: 1rem;
+  background-color: #F5F5F5;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  border-radius: 1rem;
+  -webkit-box-shadow: inset 0 0 0.6rem rgba(0, 0, 0, 0.3);
+          box-shadow: inset 0 0 0.6rem rgba(0, 0, 0, 0.3);
+  background-color: var(--primary-color);
+}
+
+[hidden] {
+  display: none;
+}
+
+html {
+  height: 100%;
+}
+
+html {
+  font-size: 62.5%;
+  /*
+  @media (min-width: 1200px) {
+    font-size: 50%;
+  }
+
+  @media (min-width: 1800px) {
+    font-size: 75%;
+  }
+  */
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 50%;
+  }
+}
+@media (min-width: 992px) {
+  html {
+    font-size: 62.5%;
+  }
+}
+
+body {
+  background: var(--body-bg);
+  height: 100%;
+  color: var(--base-color);
+  font: 400 1.6rem/1.35 var(--font-base-stack);
+  text-rendering: optimizespeed;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.container-fluid {
+  max-width: 1430px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 1.5rem;
+}
